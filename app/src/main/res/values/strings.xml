@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Labb_2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_pomodoro_timer">Welcome to
+        POMODORO timer!</string>
+    <string name="about">About</string>
+    <string name="timer">Timer</string>
+    <string name="do_you_want_know_more_about_pomodoro_technique">Do you want know more about POMODORO Technique?</string>
+    <string name="register">Register</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="pomodoro_timer">POMODORO timer!</string>
+    <string name="_25">25</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+</resources>
