@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit
 
 class TimerViewModel: ViewModel() {
 
-    private val _countdownState = MutableStateFlow(0L)
+    private val _countdownState = MutableStateFlow(1500L)
     val countdownState: StateFlow<Long> = _countdownState
     private val initialTime = 25L //Initial time in minutes
     private var countdownJob: Job? = null

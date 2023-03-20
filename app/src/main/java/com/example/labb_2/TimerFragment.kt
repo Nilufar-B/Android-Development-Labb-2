@@ -49,7 +49,7 @@ class TimerFragment : Fragment() {
             repeatOnLifecycle(Lifecycle.State.STARTED){
                 timerViewModel.countdownState.collect{countdownValue ->
 
-                   val remainingMinutes = TimeUnit.SECONDS.toMinutes(countdownValue)
+                    val remainingMinutes = TimeUnit.SECONDS.toMinutes(countdownValue)
                     val remainingSeconds = countdownValue % 60
                     timer.text = "${remainingMinutes}:${remainingSeconds}"
 
